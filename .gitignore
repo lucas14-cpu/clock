@@ -1,0 +1,9 @@
+# Python virtual environment (if we ever use one for a local server)
+.venv/
+
+# Editor settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
