@@ -22,6 +22,14 @@ main {
   display: block;
   width: 100%;
   height: auto;
+  /* Stop the phone from scrolling or zooming while dragging the hand. */
+  touch-action: none;
+  user-select: none;
+  cursor: grab;
+}
+
+#clock:active {
+  cursor: grabbing;
 }
 
 .face {
