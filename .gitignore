@@ -1,8 +1,9 @@
 # Python virtual environment (if we ever use one for a local server)
 .venv/
 
-# Editor settings
+# Editor and Claude Code settings
 .vscode/
+.claude/
 
 # Windows system files
 Thumbs.db

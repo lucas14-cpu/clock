@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clock</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <!-- viewBox puts (0, 0) in the centre of the clock, so every
+         rotation can simply turn around the origin. -->
+    <svg id="clock" viewBox="-100 -100 200 200" role="img" aria-label="Analogue clock">
+      <circle class="face" r="95"/>
+      <g id="ticks"></g>
+      <g id="numbers"></g>
+      <line id="hour-hand" class="hand hour" x1="0" y1="8" x2="0" y2="-50"/>
+      <line id="minute-hand" class="hand minute" x1="0" y1="12" x2="0" y2="-80"/>
+      <circle class="pivot" r="3.5"/>
+    </svg>
+  </main>
+</body>
+</html>
